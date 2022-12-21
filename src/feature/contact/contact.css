@@ -1,0 +1,42 @@
+.contact{
+    margin: 100px 150px;
+}
+
+.contact h1{
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.contact .contact-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact .contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow:  0px 20px 40px rgba(105, 97, 88, 0.12);
+    align-items: center;
+}
+
+.contact .contact-form .input{
+    margin: 10px;
+    width: 100%;
+}
+
+.contact .contact-form button{
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    color: white;
+    background-color: rgb(23, 183, 223);
+    font-size: 16px;
+}
+
+.contact .contact-form button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 4px;
+}

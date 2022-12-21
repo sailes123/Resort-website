@@ -1,0 +1,58 @@
+.navigation{
+    display: flex;
+    top: 0;
+    bottom: 0;
+    padding: 0px 60px;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    transition: 0.6s;
+    z-index: 5;
+}
+
+.navigation .logo img{
+    height: 66px;
+    width: 66px;
+}
+
+.navigation .navbar-items{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .navbar-items p{
+    font-size: 20px;
+}
+
+.navigation .navbar-items .book-btn{
+    height: 50px;
+    color: white;
+    background-color: green;
+    border: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.navigation .navbar-items .book-btn:hover{
+    background-color: rgb(20, 187, 20);
+    cursor: pointer;
+}
+
+.navigation .link-style{
+    text-decoration: none;
+    color: rgb(74, 14, 237);
+    font-weight: 700;
+}
+
+
+.navigation.fixed{
+    background-color: white;
+    transition: .3s ease-in-out;
+    opacity: 0.8;
+}
